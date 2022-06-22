@@ -1,0 +1,14 @@
+.hireMeBlock {
+    background-color: darkkhaki;
+    min-height: 150px;
+    text-align: center;
+
+}
+
+
+.hireMeContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}

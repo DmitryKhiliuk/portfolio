@@ -1,0 +1,37 @@
+.workBlock {
+    width: 250px;
+    min-height: 300px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.workMain {
+    background-color: cadetblue;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workText {
+    background-color: darkgoldenrod;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.textName {
+    background-color: darkolivegreen;
+
+}
+
+.textDescription {
+    background-color: antiquewhite;
+    margin-top: 5px;
+
+}
+

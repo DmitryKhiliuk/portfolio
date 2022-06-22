@@ -1,0 +1,32 @@
+.footerBlock {
+    background-color: black;
+    min-height: 300px;
+
+
+}
+
+
+.footerContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.networks {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    border: 1px solid white;
+
+}
+
+.network {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.text {
+    color: white;
+}

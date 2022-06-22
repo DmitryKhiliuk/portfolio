@@ -1,10 +1,14 @@
 import React from 'react';
-
+import style from './Header.module.css'
+import styleContainer from "../common/styles/Container.module.css";
+import Nav from "../Nav/Nav";
 const Header = () => {
     return (
-        <div>
-            
+        <div className={style.header}>
+            <div className={styleContainer.container}>
+                <Nav/>
             </div>
+        </div>
     );
 };
 
