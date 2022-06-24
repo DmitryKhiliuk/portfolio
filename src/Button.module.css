@@ -1,0 +1,12 @@
+.button {
+    width: 230px;
+    height: 50px;
+    background-color: #ffffff;
+    font-family: Teko;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #000000;
+}

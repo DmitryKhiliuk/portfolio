@@ -9,7 +9,7 @@ const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${style.contactsContainer} ${styleContainer.container}`}>
-                <h2>Contacts</h2>
+                <h2 className={style.title}>Contacts</h2>
                 <div className={style.forms}>
                     <Input name={'Name'}/>
                     <Input name={'E-mail'}/>

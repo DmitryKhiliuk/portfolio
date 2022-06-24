@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Button.module.css'
 
 export type ButtonType = {
     title: string
@@ -6,8 +7,8 @@ export type ButtonType = {
 
 export const Button = (props: ButtonType) => {
     return (
-        <div>
-            <button>{props.title}</button>
+        <div >
+            <button className={style.button}>{props.title}</button>
         </div>
     );
 };

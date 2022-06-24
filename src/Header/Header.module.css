@@ -1,7 +1,17 @@
 .header {
-    height: 80px;
-    background-color: aqua;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: #352d2f;
+    z-index: 2;
+    opacity: .9;
+
+
+}
+
+.headerNav {
+    height: 70px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

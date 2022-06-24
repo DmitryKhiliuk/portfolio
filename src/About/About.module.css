@@ -1,0 +1,35 @@
+
+.mainBlock {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*.mainBlock::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: grayscale(50%);
+
+
+}*/
+
+.text {
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    background-color: darkgray;
+}
+.photo {
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    height: 400px;
+    background-color: darkgray;
+}
